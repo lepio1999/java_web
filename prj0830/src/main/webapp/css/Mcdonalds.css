@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+* {
+	margin: 0 auto;
+
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+header {
+	background-color: #ffc700;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+
+}
+
+caption {
+	margin-top: 30px
+}
+
+nav {
+	background:  rgb(226, 226, 226);
+	height: 60px;
+	border: 0px soild;
+	text-align: center;
+	line-height: 60px;
+
+
+
+}
+
+a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+img {
+	height: 100px;
+	width: 200px;
+	margin-top: 50px
+}
+
+input {
+	width: 98%;
+	height: 60px;
+	border: 0px;
+	font-size: 16px;
+}
+
+table {
+	padding: 100px;
+	text-align: center;
+	margin: 0 auto;
+	/* 가운데 정렬 */
+	width: 1000px;
+	border-collapse: collapse;
+}
+.id{
+	color: blue;
+}
+
+td {
+
+	border: 2px solid black;
+	height: 80px;
+	background: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+.button {
+	width: 300px;
+	display: flex;
+}
+.top{
+	background-color:#ffc700 ;
+}
+button {
+
+	width: 200px;
+	/* 원하는 버튼 크기로 조정 */
+	height: 30px;
+	margin-left: 50px;
+	font-size: 16px;
+}
+
+section {
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+body{
+	height: 1200px;
+}
+footer{
+	background-color: #ffc700;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+}

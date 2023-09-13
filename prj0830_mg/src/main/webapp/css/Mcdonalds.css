@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+header{
+	background-color:rgb(255 199 0);
+	height: 200px;
+	margin: 0 auto;
+	line-height: 200px;
+	text-align: center;
+	
+}
+nav{
+	background-color: darkgray;
+	color: white;
+	height: 60px;
+	text-align: left;
+	line-height: 60px;
+
+
+}
+
+img{
+	height: 100px;
+	width: 200px;	
+	margin-top:50px
+}
+
+
+table{
+	border: 1px solid black;
+	text-align: center;
+}
+tr{
+	border: 1px solid black;
+
+
+}
+td{
+	border: 1px solid black;
+	
+}

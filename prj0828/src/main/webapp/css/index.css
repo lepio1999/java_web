@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	
+	padding: 20px;
+	background-color:crimson;
+	text-align: center;
+	
+	
+}
+nav{
+	padding: 10px;
+	background-color: blue;
+}
+
+ul{
+	list-style: none;
+}
+ul >li{
+	display: inline-block;
+}

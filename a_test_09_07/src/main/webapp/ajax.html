@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+	
+	<script>
+		function send(){
+			$.ajax({
+				type: "get",
+				dataType: "json",
+				url: "/a_test_09_07/acorn",
+				
+				success: function(data){
+					console.log(data);	
+					
+					for( let i=0; i< data.length ; i++){
+					let item = data[i];
+					//let str ="<tr><td>"+item.name+"</td><td>"+ item.price+"</td> </tr>";
+			         let str =`<tr><td> ${item.id}</td><td>  ${ item.pw} ${item.name} </td> </tr>`;					
+					$("#result").append(str);
+				}	 	
+				},
+				error:function(err){
+					console.log(err);
+				}
+			});
+		}
+	</script>
+</head>
+
+<body>
+	
+	<button onclick="send()">에이콘 테이블 정보</button>
+	
+	<div id="result"></div>
+
+</body>
+
+</html>

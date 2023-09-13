@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			alert("문서가 준비되었습니다.");
+			
+			$("#btn1").click(function() {
+				alert("버튼 1이 클릭되었습니다.");
+			});
+		let btn2Tag = document.querySelector("#btn2");
+		btn2Tag.addEventListener("click",function(){
+			alert("버튼 2이 클릭되었습니다.");
+		});
+	} );		
+	
+	</script>
+	
+</head>
+
+<body>
+
+	<button id="btn1">버튼1</button>
+	<button id="btn2">버튼2</button>
+
+
+</body>
+
+</html>
